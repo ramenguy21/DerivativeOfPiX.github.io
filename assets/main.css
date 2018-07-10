@@ -1,3 +1,13 @@
 body{
-    background-image: url('../background.jpg');
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+    background-size: 100%;
+}
+
+#title h1{
+    font-size: 95px;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
