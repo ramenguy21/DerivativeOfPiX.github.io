@@ -1,5 +1,5 @@
 body{
-    background: url('background.jpg') no-repeat;
+    background: url('background.jpg');
     /**background-size: cover;**/
     background-color: white;
 }
@@ -18,17 +18,18 @@ video {
     transition: 1s opacity;
 }
 
-.header {
-    padding: 10px;
+.container-fluid{
+
 }
 
 h1{
     color:white;
-    padding-bottom: 30px;
     background: rgba(0,0,0,0.3);
     margin: auto;
     text-align: center;
-    width: 60%;
+    width: 80%;
+    padding: 0px;
+    font-size: 100px;
 }
 
 small{
@@ -40,17 +41,38 @@ img{
     /**padding-top: 60px;**/
     margin: auto;
     border-radius: 100px;
-    outline : 1px solid white;
+    //outline : 1px solid white;
+    padding: 20px;
 }
 
 ul{
-    padding-top: 60px;
+    padding-top: 20px;
 }
 
-@media screen and (max-width: 600px) {
+.btn {
+    margin: 40px;
+    font-size: 20px;
+}
+
+.nav-link{
+    border-bottom: 0px solid #3399FF;
+    width: 0%;
+    text-align: center;
+    position: relative;
+    content: "";
+    margin: 20px;
+}
+
+.nav-item{
+    background-color: rgba(0,0,0,0.3);
+    outline: 1px solid white;
+}
+
+@media screen and (max-width: 1024px) {
     h1{
-        font-size: 30px;
+        font-size: 80px;
         text-align: center;
+        width: 70%;
     }
 
     small{
@@ -59,3 +81,11 @@ ul{
         font-size: 18%;
     }
 }
+
+@media screen and (max-width: 660px){
+    h1{
+        font-size: 60px;
+        width: 100%;
+    }
+}
+
