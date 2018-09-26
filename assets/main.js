@@ -15,11 +15,11 @@ $(document).ready(function() {
     	$("#dynamic-img").css("border-radius", "100px");
   	})
 
-  $(".nav-item").mouseover(function(){
+  $(".social-med > .nav-item").mouseover(function(){
 		$(this).css("font-size", "30px").css("transition", "0.5s");
 	})
 
-  $(".nav-item").mouseout(function(){
+  $(".social-med > .nav-item").mouseout(function(){
 		$(this).css("font-size", "20px").css("transition", "1s");
 	})
 
@@ -42,5 +42,6 @@ $(document).ready(function() {
 
 function myFunction(x) {
     x.classList.toggle("change");
+    $(".side-bar").slideToggle("slow");
 }
 
