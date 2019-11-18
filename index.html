@@ -1,84 +1,241 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Master Mad Scientist</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-	<!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<link rel="stylesheet" href="assets/prototype.css">
-	<script src="assets/main.js" type="text/javascript"></script>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>RamenGuy</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/resume.min.css" rel="stylesheet">
+
 </head>
-<body>
 
- 	<video id="bgvid" playsinline autoplay muted loop>
- 		<source src="assets/back2.mp4" type="" media="">
-	</video>
+<body id="page-top">
 
-	<div class = "fluid-container">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <span class="d-block d-lg-none">Hamza Asad</span>
+      <span class="d-none d-lg-block">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+      </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-		<div class="menu">
-			<div class="container" onclick="myFunction(this)">
-  			<div class="bar1"></div>
-  			<div class="bar2"></div>
-  			<div class="bar3"></div>
-			</div>
+  <div class="container-fluid p-0">
 
-			<div class="side-bar">
-				<h2>Main Menu</h2>
-				<ul class="nav flex-column">
-					<li class="nav-item">
-						<a style="font-size: 30px;
-								text-align: center;" class="nav-link" href="blog.html"><b>Blog</b></a>
-						<a style="font-size: 30px;
-								text-align: center;" class="nav-link" href="#"><b>Portfolio</b></a>
-					</li>
-				</ul>
-			</div>
-		</div>
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
+      <div class="w-100">
+        <h1 class="mb-0">Muhammad 
+          <span class="text-primary">Hamza Asad</span>
+        </h1>
+        <div class="subheading mb-5">Street 15 Askari 5 · Malir Cantt, (+092) 335-1313259
+          <a href="mailto:syssplus@hotmail.com">syssplus@hotmail.com</a>
+        </div>
+        <p class="lead mb-5">I am experienced in, I actually have no idea, I am a man of many talents, 
+          but I have yet to pursue and master one properly. Please understand and gib job :(
+        </p>
+        <!--<div class="social-icons">
+          <a href="#">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+        </div>-->
+      </div>
+    </section>
 
-		<div class="center-block">
-			<br />
-			<img id ="dynamic-img" class="mx-auto d-block img-responsive" src="assets/profile.jpg">
-			<div class="header fade-in">
-				<h1  class="mx-auto">RamenGuy</h1>
-				<div class="underline"></div>
-			</div>
-		</div>
+    <hr class="m-0">
 
-		<br />
-		<br />
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+      <div class="w-100">
+        <h2 class="mb-5">Experience</h2>
 
-		<div class="blog-type">
-			<h1>Something about me...</h1>
-			<p><b>BIG HEADING</b>
-			<br />
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-			<br />
-			<br />
-			<br />
-			</p>
-		</div>
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Junior Game Designer</h3>
+            <div class="subheading mb-3">IBA Incubator.</div>
+            <p>Coded the logic behind a series of applications intended for learning applications aimed towards children.</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">June 2016 - August 2016</span>
+          </div>
+        </div>
 
-		<div class = "social-med">
-			<h2> Let's talk?</h2>
-			<ul class="nav justify-content-center">
-        	<li class="nav-item">
-            	<a class="nav-link" href="https://twitter.com/itsNagisaa">Twitter</a>
-        	</li>
-        	<li class="nav-item">
-            	<a style="color:white" class="nav-link" href="https://github.com/DerivativeOfPiX">GitHub</a>
-        	</li>
-        	<li class="nav-item" id="disc-butt">
-            	<button style="color: rgb(114,137,218)" class="nav-link">Discord</button>
-        	</li>
-    		</ul>
-    		<h3 id="discord">ramenguy#6189</h3>
-    		<br />
-		</div>
-		<br />
-		<br />
-	</div>
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Web Developer/IT Consultant</h3>
+            <div class="subheading mb-3">Simptual Inc.</div>
+            <p>Helped startup the Simptual Inc. taking over logistics and IT level issues, alongside of developing three seperate websites
+              and brands namely Artifix and KlinoPlast. Designing each of their logos and such related media.
+            </p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">June 2019 - Present</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">IDK but i feel like I should have one more?</h3>
+            <div class="subheading mb-3">LULW</div>
+            <p>ekh</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">July 2020 - December 2020</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
+      <div class="w-100">
+        <h2 class="mb-5">Education</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Army Public School and College</h3>
+            <div class="subheading mb-3">O Levels</div>
+            <div>Sciences + Mathematics</div>
+            <p>Grade Average: A</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">August 2014 - May 2017</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div class="resume-content">
+            <h3 class="mb-0">The Lyceum School</h3>
+            <div class="subheading mb-3">AS Level</div>
+            <p>GPA: 3.5</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">August 2017 - May 2018</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
+      <div class="w-100">
+        <h2 class="mb-5">Skills</h2>
+
+        <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+        <ul class="list-inline dev-icons">
+          <li class="list-inline-item">
+            <i class="fab fa-html5"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-css3-alt"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-js-square"></i>
+          </li>    
+          <li class="list-inline-item">
+            <i class="fab fa-node-js"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-wordpress"></i>
+          </li>
+        </ul>
+
+        <!--<div class="subheading mb-3">Workflow</div>
+        <ul class="fa-ul mb-0">
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Not sure if I should add this?</li>
+          <li>
+        </ul>
+      </div>
+    </section>-->
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
+      <div class="w-100">
+        <h2 class="mb-5">Interests</h2>
+        <p>
+          I uh, play games and procrastinate in my spare time.</p>
+        <p class="mb-0">Oh yeah, imma filthy weaboo too.</p>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
+      <div class="w-100">
+        <h2 class="mb-5">Awards &amp; Certifications</h2>
+        <ul class="fa-ul mb-0">
+          <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            Pfft, apart from a couple of MUN certs? none</li>
+          <li>
+        </ul>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/resume.min.js"></script>
+
 </body>
+
 </html>
