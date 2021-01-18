@@ -1,2 +1,2 @@
 # DerivativeOfPiX.github.io
-<h1>Hi I like Dick</h1>
+<h1>Repo for my personal website / portfolio, probably should update.</h1>
